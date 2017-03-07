@@ -5,6 +5,8 @@ You can find the most recent version of this guide [here](https://github.com/inf
 
 ## Table of Contents
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/k0nsti/konsum-frontend.svg)](https://greenkeeper.io/)
+
 - [Updating to New Releases](#updating-to-new-releases)
 - [Sending Feedback](#sending-feedback)
 - [Folder Structure](#folder-structure)
