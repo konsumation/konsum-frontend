@@ -1,12 +1,26 @@
+[![npm](https://img.shields.io/npm/v/konsum-frontend.svg)](https://www.npmjs.com/package/konsum-frontend)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/k0nsti/konsum-frontend)
+[![Greenkeeper badge](https://badges.greenkeeper.io/k0nsti/konsum-frontend.svg)](https://greenkeeper.io/)
+[![Build Status](https://secure.travis-ci.org/k0nsti/konsum-frontend.png)](http://travis-ci.org/k0nsti/konsum-frontend)
+[![bithound](https://www.bithound.io/github/k0nsti/konsum-frontend/badges/score.svg)](https://www.bithound.io/github/k0nsti/konsum-frontend)
+[![codecov.io](http://codecov.io/github/k0nsti/konsum-frontend/coverage.svg?branch=master)](http://codecov.io/github/k0nsti/konsum-frontend?branch=master)
+[![Coverage Status](https://coveralls.io/repos/k0nsti/konsum-frontend/badge.svg)](https://coveralls.io/r/k0nsti/konsum-frontend)
+[![Code Climate](https://codeclimate.com/github/k0nsti/konsum-frontend/badges/gpa.svg)](https://codeclimate.com/github/k0nsti/konsum-frontend)
+[![Known Vulnerabilities](https://snyk.io/test/github/k0nsti/konsum-frontend/badge.svg)](https://snyk.io/test/github/k0nsti/konsum-frontend)
+[![GitHub Issues](https://img.shields.io/github/issues/k0nsti/konsum-frontend.svg?style=flat-square)](https://github.com/k0nsti/konsum-frontend/issues)
+[![Stories in Ready](https://badge.waffle.io/k0nsti/konsum-frontend.svg?label=ready&title=Ready)](http://waffle.io/k0nsti/konsum-frontend)
+[![Dependency Status](https://david-dm.org/k0nsti/konsum-frontend.svg)](https://david-dm.org/k0nsti/konsum-frontend)
+[![devDependency Status](https://david-dm.org/k0nsti/konsum-frontend/dev-status.svg)](https://david-dm.org/k0nsti/konsum-frontend#info=devDependencies)
+[![docs](http://inch-ci.org/github/k0nsti/konsum-frontend.svg?branch=master)](http://inch-ci.org/github/k0nsti/konsum-frontend)
+[![downloads](http://img.shields.io/npm/dm/konsum-frontend.svg?style=flat-square)](https://npmjs.org/package/konsum-frontend)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
 This project was bootstrapped with [Create Inferno App](https://github.com/infernojs/create-inferno-app).
 
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/infernojs/create-inferno-app/blob/master/packages/inferno-scripts/template/README.md).
 
 ## Table of Contents
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/k0nsti/konsum-frontend.svg)](https://greenkeeper.io/)
-
 - [Updating to New Releases](#updating-to-new-releases)
 - [Sending Feedback](#sending-feedback)
 - [Folder Structure](#folder-structure)
@@ -459,7 +473,7 @@ Alternatively, you can force the linter to ignore any line by adding `// eslint-
 
 Flow is a static type checker that helps you write code with fewer bugs. Check out this [introduction to using static types in JavaScript](https://medium.com/@preethikasireddy/why-use-static-types-in-javascript-part-1-8382da1e0adb) if you are new to this concept.
 
-Recent versions of [Flow](http://flowtype.org/) work with Create Inferno App projects out of the box. 
+Recent versions of [Flow](http://flowtype.org/) work with Create Inferno App projects out of the box.
 
 To add Flow to a Create Inferno App project, follow these steps:
 
@@ -916,7 +930,7 @@ This feature is experimental and still [has major usage issues](https://github.c
 
 ### Editor Integration
 
-If you use [Visual Studio Code](https://code.visualstudio.com), there is a [Jest extension](https://github.com/orta/vscode-jest) which works with Create Inferno App out of the box. This provides a lot of IDE-like features while using a text editor: showing the status of a test run with potential fail messages inline, starting and stopping the watcher automatically, and offering one-click snapshot updates. 
+If you use [Visual Studio Code](https://code.visualstudio.com), there is a [Jest extension](https://github.com/orta/vscode-jest) which works with Create Inferno App out of the box. This provides a lot of IDE-like features while using a text editor: showing the status of a test run with potential fail messages inline, starting and stopping the watcher automatically, and offering one-click snapshot updates.
 
 ![VS Code Jest Preview](https://cloud.githubusercontent.com/assets/49038/20795349/a032308a-b7c8-11e6-9b34-7eeac781003f.png)
 
@@ -1150,16 +1164,16 @@ GitHub Pages doesn't support routers that use the HTML5 `pushState` history API 
 ### Heroku
 
 Use the [Heroku Buildpack for Create Inferno App](https://github.com/mars/create-react-app-buildpack).<br>
-You can find instructions in [Deploying Inferno with Zero Configuration](https://blog.heroku.com/deploying-react-with-zero-configuration). 
+You can find instructions in [Deploying Inferno with Zero Configuration](https://blog.heroku.com/deploying-react-with-zero-configuration).
 
 #### Resolving "Module not found: Error: Cannot resolve 'file' or 'directory'"
 
 Sometimes `npm run build` works locally but fails during deploy via Heroku with an error like this:
 
-```  
+```
 remote: Failed to create a production build. Reason:
-remote: Module not found: Error: Cannot resolve 'file' or 'directory' 
-MyDirectory in /tmp/build_1234/src  
+remote: Module not found: Error: Cannot resolve 'file' or 'directory'
+MyDirectory in /tmp/build_1234/src
 ```
 
 This means you need to ensure that the lettercase of the file or directory you `import` matches the one you see on your filesystem or on GitHub.
