@@ -6,7 +6,7 @@
     "semantic-release": "^6.3.6"
   },
   "dependencies": {
-    "inferno-component": "^1.5.4"
+    "inferno-component": "^1.5.6"
   },
   "scripts": {
     "start": "inferno-scripts start",
