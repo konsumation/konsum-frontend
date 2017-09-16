@@ -3,7 +3,7 @@
   "version": "0.0.0-semantic-release",
   "devDependencies": {
     "inferno-scripts": "4.2.0",
-    "semantic-release": "^6.3.6"
+    "semantic-release": "^8.0.0"
   },
   "dependencies": {
     "inferno-component": "^3.5.2"
