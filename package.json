@@ -2,7 +2,7 @@
   "name": "konsum-frontend",
   "version": "0.0.0-semantic-release",
   "devDependencies": {
-    "inferno-scripts": "6.1.0",
+    "inferno-scripts": "6.3.0",
     "semantic-release": "^15.0.0"
   },
   "dependencies": {
