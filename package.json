@@ -7,6 +7,7 @@
   },
   "license": "BSD-2-Clause",
   "scripts": {
+    "prepare": "webpack-cli",
     "start": "webpack-dev-server --open",
     "semantic-release": "semantic-release"
   },
