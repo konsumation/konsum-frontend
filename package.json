@@ -1,19 +1,34 @@
 {
   "name": "konsum-frontend",
   "version": "0.0.0-semantic-release",
-  "devDependencies": {
-    "inferno-scripts": "6.3.0",
-    "semantic-release": "^15.0.0"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/k0nsti/konsum-frontend.git"
+  },
+  "license": "BSD-2-Clause",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
-    "inferno-component": "^5.0.0"
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
   },
-  "scripts": {
-    "start": "inferno-scripts start",
-    "build": "inferno-scripts build",
-    "test": "inferno-scripts test --env=jsdom",
-    "eject": "inferno-scripts eject",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
-  },
-  "license": "BSD-2-Clause"
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-preset-vue": "^2.0.2",
+    "css-loader": "^0.28.11",
+    "html-webpack-plugin": "^3.2.0",
+    "path": "^0.12.7",
+    "vue-loader": "^14.2.3",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.15.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.3",
+    "semantic-release": "^15.0.0"
+  }
 }

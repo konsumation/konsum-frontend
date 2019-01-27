@@ -1,9 +1,15 @@
-import Inferno from 'inferno';
-import App from './App';
-import Input from './Input.jsx';
-import './index.css';
+import Vue from 'vue';
 
-Inferno.render( <
-  Input / > ,
-  document.getElementById('app')
-);
+import { store } from './_store';
+import { router } from './_helpers';
+import App from './app/App';
+
+//import { configureFakeBackend } from './_helpers';
+//configureFakeBackend();
+
+new Vue({
+    el: '#app',
+    router,
+    store,
+    render: h => h(App)
+});
