@@ -7,6 +7,7 @@ import LoginPage from '../login/LoginPage'
 Vue.use(Router);
 
 export const router = new Router({
+  base: '/services/konsum',
   mode: 'history',
   routes: [
     { path: '/', component: HomePage },
