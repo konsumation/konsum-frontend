@@ -1,17 +1,12 @@
-import Vue from 'vue';
+import Vue from "vue";
 
-import { store } from './_store';
-import { router } from './_helpers';
-import App from './app/App';
-
-/*
-import { configureFakeBackend } from './_helpers';
-configureFakeBackend();
-*/
+import { store } from "./_store";
+import { router } from "./_helpers";
+import App from "./app/App";
 
 new Vue({
-    el: '#app',
-    router,
-    store,
-    render: h => h(App)
+  el: "#app",
+  router,
+  store,
+  render: h => h(App)
 });
