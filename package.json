@@ -37,6 +37,9 @@
     "content": {
       "/services/konsum/docroot/main.js": "dist/main.js",
       "/services/konsum/docroot/index.html": "dist/index.html"
+    },
+    "depends": {
+      "konsum": ">=1.9.9"
     }
   }
 }
