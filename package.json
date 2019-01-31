@@ -7,7 +7,7 @@
   },
   "license": "BSD-2-Clause",
   "scripts": {
-    "prepare": "webpack-cli",
+    "prepare": "webpack --config webpack.production.js",
     "start": "webpack-dev-server --open",
     "package": "npm-pkgbuild -t /data/binaries/arch-linux/packages pkgbuild pacman makepkg"
   },
@@ -29,7 +29,8 @@
     "vue-template-compiler": "^2.5.16",
     "webpack": "^4.29.0",
     "webpack-cli": "^3.2.1",
-    "webpack-dev-server": "^3.1.14"
+    "webpack-dev-server": "^3.1.14",
+    "webpack-merge": "^4.2.1"
   },
   "pacman": {
     "groups": "home-automation",
