@@ -39,7 +39,7 @@
       "/services/konsum/docroot/index.html": "dist/index.html"
     },
     "depends": {
-      "konsum": ">=1.9.9"
+      "konsum": ">=1"
     }
   }
 }
