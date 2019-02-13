@@ -5,7 +5,8 @@ module.exports = merge(common, {
   mode: "production",
   externals: {
     config: JSON.stringify({
-      apiUrl: "/services/konsum/api"
+      apiUrl: "/services/konsum/api",
+      baseUrl: "/services/konsum"
     })
   }
 });
