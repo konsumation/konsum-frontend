@@ -37,9 +37,6 @@ async function getAll() {
 }
 
 async function handleResponse(response) {
-  const text = await response.text();
-
-  const data = text && JSON.parse(text);
   if (!response.ok) {
     if (response.status === 401) {
       // auto logout if 401 response returned from api
@@ -50,5 +47,6 @@ async function handleResponse(response) {
     throw (data && data.message) || response.statusText;
   }
 
-  return data;
+  const text = await response.text();
+  return text && JSON.parse(text);
 }
