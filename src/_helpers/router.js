@@ -3,16 +3,17 @@ import Router from 'vue-router';
 import config from "config";
 
 import HomePage from '../home/HomePage'
+import CategoriesPage from '../categories/CategoriesPage'
 import LoginPage from '../login/LoginPage'
 
 Vue.use(Router);
 
-console.log(config.baseUrl);
 export const router = new Router({
   base: config.baseUrl,
   mode: 'history',
   routes: [
     { path: '/', component: HomePage },
+    { path: '/categories', component: CategoriesPage },
     { path: '/login', component: LoginPage },
 
     // otherwise redirect to home
