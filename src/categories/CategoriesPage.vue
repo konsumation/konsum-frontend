@@ -1,9 +1,9 @@
 <template>
   <div>
     <h1>Categories</h1>
-    <ul v-if="users.items">
-      <li v-for="user in users.items" :key="user.key">
-        {{ user.key + " " + user.value }}
+    <ul v-if="categories.items">
+      <li v-for="category in categories.items" :key="category.name">
+        {{ category.name + " " + category.unit }}
       </li>
     </ul>
     <p>

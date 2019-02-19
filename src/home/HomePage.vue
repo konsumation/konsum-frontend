@@ -19,7 +19,7 @@ export default {
     }
   },
   created() {
-    this.$store.dispatch("users/getAll");
+    this.$store.dispatch("categories/getAll");
   }
 };
 </script>
