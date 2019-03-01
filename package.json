@@ -26,7 +26,7 @@
     "npm-pkgbuild": "^5.1.7",
     "semantic-release": "^15.0.0",
     "vue-loader": "^15.6.4",
-    "vue-template-compiler": "^2.6.7",
+    "vue-template-compiler": "^2.6.8",
     "webpack-cli": "^3.2.3",
     "webpack": "^4.29.5",
     "webpack-dev-server": "^3.2.1",
