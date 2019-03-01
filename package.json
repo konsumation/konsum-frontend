@@ -12,7 +12,7 @@
     "package": "npm-pkgbuild -t /data/binaries/arch-linux/packages/{{arch}} pkgbuild pacman makepkg"
   },
   "dependencies": {
-    "vue": "^2.6.7",
+    "vue": "^2.6.8",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1"
   },
