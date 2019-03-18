@@ -1,5 +1,6 @@
 {
   "name": "konsum-frontend",
+  "description": "konsum web frontend",
   "version": "0.0.0-semantic-release",
   "repository": {
     "type": "git",
@@ -9,7 +10,7 @@
   "scripts": {
     "prepare": "webpack --config webpack.production.js",
     "start": "webpack-dev-server --open",
-    "package": "npm-pkgbuild -t /data/binaries/arch-linux/packages/{{arch}} pkgbuild pacman makepkg"
+    "package": "npm-pkgbuild pkgbuild pacman makepkg"
   },
   "dependencies": {
     "vue": "^2.6.9",
@@ -23,7 +24,7 @@
     "babel-loader": "^8.0.5",
     "css-loader": "^2.1.1",
     "html-webpack-plugin": "^3.2.0",
-    "npm-pkgbuild": "^5.1.10",
+    "npm-pkgbuild": "^5.2.0",
     "semantic-release": "^15.0.0",
     "vue-loader": "^15.7.0",
     "vue-template-compiler": "^2.6.9",
