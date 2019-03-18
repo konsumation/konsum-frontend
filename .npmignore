@@ -14,6 +14,3 @@ doc
 .npmignore
 .vscode
 .nyc_output
-.markdown-doctest-setup.js
-rollup.config.js
-SUMMARY.md
