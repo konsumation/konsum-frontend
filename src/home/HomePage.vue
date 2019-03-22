@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h1>Hi</h1>
-    <p>You're logged in to Konsum</p>
+    <p>Welcome to Konsum</p>
     <p>
       <router-link to="/login">Logout</router-link>
     </p>
