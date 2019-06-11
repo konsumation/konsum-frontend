@@ -23,7 +23,7 @@
     "@semantic-release/exec": "^3.3.3",
     "@vue/babel-preset-app": "^3.8.0",
     "babel-loader": "^8.0.6",
-    "css-loader": "^2.1.1",
+    "css-loader": "^3.0.0",
     "html-webpack-plugin": "^3.2.0",
     "npm-pkgbuild": "^6.4.6",
     "semantic-release": "^15.13.12",
