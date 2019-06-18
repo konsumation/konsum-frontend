@@ -51,8 +51,7 @@
     "installdir": "/services/konsum/frontend",
     "content": {
       "${installdir}/": {
-        "base": "dist",
-        "pattern": "**/*"
+        "base": "dist"
       },
       "/etc/nginx/config.d/${name}.conf": "config/nginx.conf"
     },
