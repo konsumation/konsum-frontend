@@ -45,13 +45,13 @@
       ]
     ]
   },
+  "config": {
+    "urlPrefix": "/services/konsum"
+  },
   "pacman": {
     "groups": "home-automation",
     "installdir": "/services/konsum/frontend",
     "install": "pacman/install.sh",
-    "properties": {
-      "urlPrefix": "/services/konsum"
-    },
     "content": {
       "${installdir}/": {
         "base": "dist"
