@@ -25,7 +25,7 @@
     "babel-loader": "^8.0.6",
     "css-loader": "^3.1.0",
     "html-webpack-plugin": "^3.2.0",
-    "npm-gkpbuild": "^6.11.1",
+    "npm-pkgbuild": "^6.11.1",
     "semantic-release": "^15.13.19",
     "vue-loader": "^15.8.3",
     "vue-template-compiler": "^2.6.10",
