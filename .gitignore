@@ -2,6 +2,14 @@
 /dist
 /coverage
 /build
+*.node
 .DS_Store
 .env
 npm-debug.log
+konsumdb
+node_modules
+build
+*.log
+*.dump
+.test
+.tmp
